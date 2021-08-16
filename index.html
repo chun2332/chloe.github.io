@@ -12,12 +12,17 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
-			h5 ,h2{
+			h5, h2, h6{
 				letter-spacing: 1px;
 			}
 
 			p {
 				text-align: left;
+				font-size: 14px;
+			}
+
+			span {
+				font-size: 14px;
 			}
 
 			i {
@@ -84,7 +89,7 @@
 						<h2>EDUCATION</h2>
 					</header>
 					<p>• Department of Law</p>
-					<p style="font-size:14px">HCU | 2014 - 2018</p>
+					<p>HCU | 2014 - 2018</p>
 					<p>• 資策會前端工程師養成班14期</p>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
@@ -96,9 +101,7 @@
 					<header>
 						<h2>Who I Am</h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					<p>哈囉～我是Chloe，畢業於玄奘大學法律系，曾在牙醫診所擔任醫師指定助理。基於想挑戰自己，探索不同領域，故選擇離職報名資策會前端工程師培訓班，經過五個月的學習、與同學合作完成一個專案開發，確信自己對這領域深感興趣，</p>
 				</div>
 				<a href="#work" class="button style2 down anchored">Next</a>
 			</section>
@@ -144,9 +147,7 @@
 								<i class="fab fa-github"></i>
 								<h5>GitHub</h5>
 							</article>
-							
 						</div>
-
 				</div>
 			</section>
 
@@ -156,15 +157,75 @@
 					<header>
 						<h2>PROJECTS</h2>
 					</header>
-					<div class="box">
-						<p>資策會結訓專題製作 | 2021/03 - 2021/07</p>
-					<p style="font-size:14px">1. Implemented and designed frontend pages (Member Centre,logon authentication) using React, React Bootstrap and JSON Web Token
-					</p>
-					<p style="font-size:14px">2. Constructed Node.js backend server using Express and MySQL</p>
-					<p style="font-size:14px">3. Avoided callback hell using either Promise or Async/Await function</p>
-					<a href="https://github.com/josie-shie/artddict-react.git" style="font-size:14px">前往查看作品</a>
+					<!-- <div class="box"> -->
+						<h6>資策會結訓專題製作 | 2021/03 - 2021/07</h6>
+							<p>• Implemented and designed frontend pages (Member Centre,logon authentication) using React, React Bootstrap and JSON Web Token</p>
+							<p>• Constructed Node.js backend server using Express and MySQL</p>
+							<p>• Avoided callback hell using either Promise or Async/Await function</p>
+							<a href="https://github.com/josie-shie/artddict-react.git" style="font-size:14px">前往查看作品</a>
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="Login Page" alt="" /></a>
+							</article>
+							<article class="from-right" style=" margin-top: 10vh; text-align: right">
+								<span>登入驗證使用JSON Web Token</span>
+							</article>
+							<article class="from-left" style=" margin-top: 10vh">
+								<p>設計較少的欄位，讓用戶快速註冊、提升註冊意願</p>
+								
+								<p>欄位結合HTML5的表單驗證技術，每個欄位逐一檢視</p>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Register Page" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Member Page" alt="" /></a>
+							</article>
+							<article class="from-right" style=" margin-top: 10vh; text-align: right;">
+								<span>使用 React Hook 更新、紀錄使用者的資料編輯狀態</span>
+							</article>
+							<article class="from-left" style=" margin-top: 10vh">
+								<p>密碼修改考量帳戶安全，無紀錄舊密碼，兩次輸入必須填寫相同，即能完成修改</ㄣ>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="Password Page" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="Order Page" alt="" /></a>
+							</article>
+							<article class="from-right" style="margin-top: 10vh; text-align: right;">
+								<span>每筆訂單依訂單狀態的差異，透過post request改變訂單狀態；分類拉表，藉由 React Hook 減少過多reload造成用戶體驗不便，提升使用效能</span>
+								<span style="display:block"></span>
+							</article>
+							<article class="from-left" style=" margin-top: 10vh">
+								<p>串接 API 準確撈出用戶的訂單細節資訊</p>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="OrderDetail Page" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" title="Coupon Page" alt="" /></a>
+							</article>
+							<article class="from-right" style=" margin-top: 10vh">
+								<span></span>
+							</article>
+							<article class="from-left" style=" margin-top: 10vh">
+								<span>票卷顯示根據用戶的票卷訂單做呈現，利用postman測試後端 API </span>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" title="Ticket Page" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/09.jpg" class="image fit"><img src="images/thumbs/09.jpg" title="Favorite Page" alt="" /></a>
+							</article>
+							<article class="from-right" style=" margin-top: 10vh">
+								<span></span>
+							</article>
+						</div>
+				
 						
-					</div>
+					<!-- </div> -->
 				</div>
 			</section>
 
