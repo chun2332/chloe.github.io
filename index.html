@@ -17,7 +17,7 @@
 			}
 
 			p {
-				text-align: left;
+				/* text-align: left; */
 				font-size: 16px;
 			}
 
@@ -101,7 +101,7 @@
 					<header>
 						<h2>Who I Am</h2>
 					</header>
-					<p>哈囉～我是Chloe，畢業於玄奘大學法律系，曾在牙醫診所擔任醫師指定助理。基於想挑戰自己，探索不同領域，故選擇離職報名資策會前端工程師培訓班，經過五個月的學習、與同學合作完成一個專案開發，確信自己對這領域深感興趣，現在是一個前端工程師。</p>
+					<p>哈囉～我是Chloe，畢業於玄奘大學法律系，曾在牙醫診所擔任醫師指定助理。基於想挑戰自己、探索不同領域，故選擇離職報名資策會前端工程師培訓班，經過五個月密集的學習、與同學合作完成一個專案開發，確信自己對這領域深感興趣，現在是一個前端工程師。</p>
 				</div>
 				<a href="#work" class="button style2 down anchored">Next</a>
 			</section>
@@ -159,9 +159,9 @@
 					</header>
 					<!-- <div class="box"> -->
 						<h6>資策會結訓專題製作 | 2021/06 - 2021/07</h6>
-							<p>• Implemented and designed frontend pages (Member Centre,logon authentication) using React, React Bootstrap and JSON Web Token</p>
-							<p>• Constructed Node.js backend server using Express and MySQL</p>
-							<p>• Avoided callback hell using either Promise or Async/Await function</p>
+							<p style="text-align: left">• Implemented and designed frontend pages (Member Centre,logon authentication) using React, React Bootstrap and JSON Web Token</p>
+							<p style="text-align: left">• Constructed Node.js backend server using Express and MySQL</p>
+							<p style="text-align: left">• Avoided callback hell using either Promise or Async/Await function</p>
 							<a href="https://github.com/josie-shie/artddict-react.git" style="font-size:14px">前往查看作品</a>
 					<!-- Gallery  -->
 						<div class="gallery">
@@ -169,11 +169,11 @@
 								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="Login Page" alt="" /></a>
 							</article>
 							<article class="from-right" style=" margin-top: 10vh; text-align: right">
-								<span>登入驗證使用JSON Web Token</span>
+								<p>登入驗證使用JSON Web Token</p>
 							</article>
 							<article class="from-left" style=" margin-top: 10vh">
-								<p>設計較少的欄位，讓用戶快速註冊、提升註冊意願</p>	
-								<p>欄位結合HTML5的表單驗證技術，每個欄位逐一檢視</p>
+								<p style="text-align: left">設計較少的欄位，讓用戶快速註冊、提升註冊意願</p>	
+								<p style="text-align: left">欄位結合HTML5的表單驗證技術，每個欄位逐一檢視</p>
 							</article>
 							<article class="from-right">
 								<a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" title="Register Page" alt="" /></a>
@@ -182,10 +182,11 @@
 								<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Member Page" alt="" /></a>
 							</article>
 							<article class="from-right" style=" margin-top: 10vh; text-align: right;">
-								<span>使用 React Hook 更新、紀錄會員的資料編輯狀態</span>
+								<p>使用 React Hook 更新、紀錄會員的資料編輯狀態</p>
+								<p>Header 根據 JWT 偵測會員編號顯示歡迎訊息</p>
 							</article>
 							<article class="from-left" style=" margin-top: 10vh">
-								<p>密碼修改考量帳戶安全，沒有紀錄會員的舊密碼，兩次輸入結果必須相同，才能完成修改</p>
+								<p style="text-align: left">密碼修改考量帳戶安全，沒有紀錄會員的舊密碼，兩次輸入結果必須相同，才能完成修改</p>
 							</article>
 							<article class="from-right">
 								<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="Password Page" alt="" /></a>
@@ -198,7 +199,7 @@
 								<span style="display:block"></span>
 							</article>
 							<article class="from-left" style=" margin-top: 10vh">
-								<p>串接 API 準確撈出根據會員消費的訂單記錄呈現訂單細節各項資訊，點擊前往評價，可連結至商品細節頁，供會員作商品評價或查看商品細節</p>
+								<p style="text-align: left">串接 API 準確撈出根據會員消費的訂單記錄呈現訂單細節各項資訊，點擊前往評價，可連結至商品細節頁，供會員作商品評價或查看商品細節</p>
 							</article>
 							<article class="from-right">
 								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="OrderDetail Page" alt="" /></a>
@@ -210,7 +211,7 @@
 								<span>網站根據節慶，不定時發放優惠券予會員，會員複製成功後（複製完成系統會貼心提醒會員複製成功），會員可至購物車結帳時做使用</span>
 							</article>
 							<article class="from-left" style=" margin-top: 10vh">
-								<p>票卷顯示係根據會員的票卷訂單紀錄，利用 Array map 產生每筆票卷資訊，點選活動細節，可連結至活動細節頁，供會員做更詳細地查看</p>
+								<p style="text-align: left">票卷顯示係根據會員的票卷訂單紀錄，利用 Array map 產生每筆票卷資訊，點選活動細節，可連結至活動細節頁，供會員做更詳細地查看</p>
 							</article>
 							<article class="from-right">
 								<a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" title="Ticket Page" alt="" /></a>
@@ -219,7 +220,7 @@
 								<a href="images/fulls/09.jpg" class="image fit"><img src="images/thumbs/09.jpg" title="Favorite Page" alt="" /></a>
 							</article>
 							<article class="from-right" style=" margin-top: 10vh; text-align: right">
-								<span>根據會員的收藏行為做 API 串接，點選愛心 icons 即可移除收藏，點擊購物車 icons 可連結至商品詳細頁，讓會員進行更近一步的選購</span>
+								<span>根據會員的收藏行為利用 Node.js、MySQL 與資料庫做 API 串接，點選愛心 icons 即可移除收藏，點擊購物車 icons 可連結至商品詳細頁，讓會員進行更近一步的選購</span>
 							</article>
 						</div>
 				
