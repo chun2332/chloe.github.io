@@ -21,21 +21,21 @@
 				font-size: 16px;
 			}
 
-			@media screen and (max-width: 400px) {
+			@media screen and (max-width: 420px) {
 				p {
 					text-align: left;
 				}
 
-				
+				i { transform-origin: 0 0; 
+				animation: i 2s 1s infinite; }
+				@keyframes i {
+					0%   { transform: rotate(15deg); }
+					50%  { transform: rotate(75deg); }
+					100% { transform: rotate(15deg); }
+				}
 			}
 
-			i { transform-origin: 0 0; 
-            animation: i 2s 1s infinite; }
-			@keyframes i {
-				0%   { transform: rotate(15deg); }
-				50%  { transform: rotate(75deg); }
-				100% { transform: rotate(15deg); }
-      		}
+			
 
 			span {
 				font-size: 16px;
