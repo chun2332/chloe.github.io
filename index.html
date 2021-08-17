@@ -21,6 +21,22 @@
 				font-size: 16px;
 			}
 
+			@media screen and (max-width: 400px) {
+				p {
+					text-align: left;
+				}
+
+				
+			}
+
+			i { transform-origin: 0 0; 
+            animation: i 2s 1s infinite; }
+			@keyframes i {
+				0%   { transform: rotate(15deg); }
+				50%  { transform: rotate(75deg); }
+				100% { transform: rotate(15deg); }
+      		}
+
 			span {
 				font-size: 16px;
 			}
@@ -168,10 +184,10 @@
 							<article class="from-left">
 								<a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" title="Login Page" alt="" /></a>
 							</article>
-							<article class="from-right" style=" margin-top: 10vh; text-align: right">
+							<article class="from-right" style="text-align: right; margin-top: 10vh">
 								<p>登入驗證使用JSON Web Token</p>
 							</article>
-							<article class="from-left" style=" margin-top: 10vh">
+							<article class="from-left" style="margin-top: 10vh">
 								<p style="text-align: left">設計較少的欄位，讓用戶快速註冊、提升註冊意願</p>	
 								<p style="text-align: left">欄位結合HTML5的表單驗證技術，每個欄位逐一檢視</p>
 							</article>
@@ -195,7 +211,7 @@
 								<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="Order Page" alt="" /></a>
 							</article>
 							<article class="from-right" style="margin-top: 5vh; text-align: right;">
-								<span>每筆訂單皆根據會員的消費紀錄去做 API 串接顯示，並且每筆訂單都可以根據訂單狀態的差異，透過 Post Request 改變訂單狀態；分類拉表的部分，藉由 React Hook 減少過多 Reload 造成會員體驗不便，訂單根據狀態分頁顯示，提升會員使用效能</span>
+								<p>每筆訂單皆根據會員的消費紀錄去做 API 串接顯示，並且每筆訂單都可以根據訂單狀態的差異，透過 Post Request 改變訂單狀態；分類拉表的部分，藉由 React Hook 減少過多 Reload 造成會員體驗不便，訂單根據狀態分頁顯示，提升會員使用效能</p>
 								<span style="display:block"></span>
 							</article>
 							<article class="from-left" style=" margin-top: 10vh">
@@ -208,7 +224,7 @@
 								<a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" title="Coupon Page" alt="" /></a>
 							</article>
 							<article class="from-right" style=" margin-top: 10vh; text-align: right">
-								<span>網站根據節慶，不定時發放優惠券予會員，會員複製成功後（複製完成系統會貼心提醒會員複製成功），會員可至購物車結帳時做使用</span>
+								<p>網站根據節慶，不定時發放優惠券予會員，會員複製成功後（複製完成系統會貼心提醒會員複製成功），會員可至購物車結帳時做使用</p>
 							</article>
 							<article class="from-left" style=" margin-top: 10vh">
 								<p style="text-align: left">票卷顯示係根據會員的票卷訂單紀錄，利用 Array map 產生每筆票卷資訊，點選活動細節，可連結至活動細節頁，供會員做更詳細地查看</p>
@@ -220,7 +236,7 @@
 								<a href="images/fulls/09.jpg" class="image fit"><img src="images/thumbs/09.jpg" title="Favorite Page" alt="" /></a>
 							</article>
 							<article class="from-right" style=" margin-top: 10vh; text-align: right">
-								<span>根據會員的收藏行為利用 Node.js、MySQL 與資料庫做 API 串接，點選愛心 icons 即可移除收藏，點擊購物車 icons 可連結至商品詳細頁，讓會員進行更近一步的選購</span>
+								<p>根據會員的收藏行為利用 Node.js、MySQL 與資料庫做 API 串接，點選愛心 icons 即可移除收藏，點擊購物車 icons 可連結至商品詳細頁，讓會員進行更近一步的選購</p>
 							</article>
 						</div>
 				
